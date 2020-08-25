@@ -28,7 +28,6 @@ function setup()
   engine = Engine.create();
   world = engine.world;
 
-  var options = { isStatic: true}
     // these is the last block line.
     block1 = Bodies.rectangle(50, 200, 40, 40);
     World.add(world, block1);
